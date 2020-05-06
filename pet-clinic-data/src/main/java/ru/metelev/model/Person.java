@@ -1,4 +1,4 @@
-package ru.metelev.sfgpetclinic.model;
+package ru.metelev.model;
 
 public class Person {
     private String firstName;

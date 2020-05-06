@@ -1,4 +1,4 @@
-package ru.metelev.sfgpetclinic.model;
+package ru.metelev.model;
 
 import java.time.LocalDate;
 
