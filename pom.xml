@@ -50,7 +50,7 @@
   </build>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:Denniza/sfg-pet-clinic.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/Denniza/sfg-pet-clinic.git</developerConnection>
   </scm>
 
 </project>
