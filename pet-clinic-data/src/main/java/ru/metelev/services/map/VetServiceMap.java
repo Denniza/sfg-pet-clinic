@@ -2,14 +2,14 @@ package ru.metelev.services.map;
 
 import java.util.Set;
 import org.springframework.stereotype.Service;
-import ru.metelev.model.Owner;
-import ru.metelev.services.OwnerService;
+import ru.metelev.model.Vet;
+import ru.metelev.services.VetService;
 
 @Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
-    public Set<Owner> findAll() {
+    public Set<Vet> findAll() {
         return super.findAll();
     }
 
@@ -19,17 +19,17 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public void delete(Owner object) {
+    public void delete(Vet object) {
         super.delete(object);
     }
 
     @Override
-    public Owner save(Owner object) {
+    public Vet save(Vet object) {
         return super.save(object.getId(), object);
     }
 
     @Override
-    public Owner findById(Long id) {
+    public Vet findById(Long id) {
         return super.findById(id);
     }
 }
